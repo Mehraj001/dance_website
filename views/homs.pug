@@ -1,0 +1,55 @@
+extends base.pug
+
+block scripts 
+  script(src='/static/index.js')
+
+block style 
+     style
+       include ../static/style.css
+
+block content 
+    section#sectionfirst 
+         div Welcome to the Mehraj Dance Academy
+         div.smaal Eat sleep Dance repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/1.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/2.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/3.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+    
+    section#sectionsecond 
+         h2 our sponser
+         div#sponser
+             img(src="/static/lg1.png", alt="sponser-imsge", Class="spImg")
+             img(src="/static/lg.avif", alt="sponser-imsge", Class="spImg")
+             img(src="/static/lg2.png", alt="sponser-imsge", Class="spImg")
+             img(src="/static/lgg4.jpg", alt="sponser-imsge", Class="spImg") 
+    
+          
+    
+
+
+
+
+    
